@@ -51,8 +51,7 @@ body {
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
-}
+   }
 
 
 /******************************************
@@ -66,15 +65,11 @@ body {
   height: 500px;
 }
 
-header {
-
-}
-
 h1 {
   font-family: "Open Sans extra bold", sans-serif;
   font-size: 24px;
   font-weight: 800;
-  margin: 50px 0px 0px 200px;
+  margin: 50px 0px 0px 150px;
   color: white;
 }
 
@@ -84,18 +79,7 @@ h2 {
   font-weight: 600;
   color: white;
   text-align: center;
-  padding: 50px;
-}
-
-h3 {
-  font-family: "Open Sans semibold", sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  color: #033048;
-  margin-left: 200px;
-  margin-top: -200px;
-  background-color: white;
-  padding-top: 25px;
+  padding: 75px;
 }
 
 a {
@@ -109,9 +93,12 @@ a {
  margin: 0 auto;
 }
 
-span {
-  font-style: none;
-  font 
+ul {
+  list-style: disc;
+  font-family: "Open Sans light", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  padding: 20px 50px;
 }
 
 footer {
@@ -134,38 +121,53 @@ h6 {
   font-size: 9px;
   font-weight: 600;
   color: white;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 footer img {
   margin: 20px 20px 20px 20px;
 }
 
-#benefits p {
-  font-family: "Open Sans light", sans-serif;
-  font-size: 13px;
-  font-weight: 300;
-  color: #606161;
-  padding: 50px 180px 20px 200px;
-  background-color: white;
+#benefits {
+  background-color: #f0efef;
+  border: 1 px solid green;
 }
 
-#benefits ul {
-  list-style: disc;
-  margin: 0px 0px 0px 50px;
+#benefits h3 {
+  font-family: "Open Sans semibold", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  color: #033048;
+  margin-bottom: 15px;
+}
+
+#benefits p, ul {
   font-family: "Open Sans light", sans-serif;
-  font-weight: 300;
   font-size: 13px;
+  font-weight: 300;
   color: #606161;
-  padding: 10px 180px 0px 200px;
-  background-color: white;
 }
 
 #testimonial {
   font-family: "Open Sans light", sans-serif;
   font-style: italic;
   font-size: 18px;
+  font-weight: 300px;
   color: white;
   text-align: center;
+  padding-top: 30px;
+}
+
+#testimonial img {
+  position: center;
+  width: 100%;
+  margin-top: -30px;
+}
+
+#testimonial p {
+  margin-top: -200px;
+  margin-bottom: 75px;
 }
 
 #sign {
@@ -177,7 +179,8 @@ footer img {
 
 #yellowBox {
   background-color: #f9e42e;
-  padding: 25px 0 25px 0;
+  padding: 20px 0 20px 0;
+  margin-top: -5px;
 }
 
 .button {
@@ -196,10 +199,15 @@ footer img {
   text-decoration: none;
 }
 
+.box {
+  padding: 50px 0 50px 0;
+  width: 70%;
+  margin: 0 auto;
+}
+
 .button p {
   background-color: #033048;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   padding: 5px 0px 5px 0px;
   border: 1px solid #f9e42e;
   border-radius: 5px;
