@@ -51,8 +51,7 @@ body {
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
-}
+   }
 
 
 /******************************************
@@ -66,110 +65,154 @@ body {
   height: 500px;
 }
 
-header {
-
-}
-
 h1 {
   font-family: "Open Sans extra bold", sans-serif;
   font-size: 24px;
-  margin: 50px 0px 0px 100px;
+  font-weight: 800;
+  margin: 50px 0px 0px 150px;
   color: white;
 }
 
 h2 {
   font-family: "Open Sans semibold", sans-serif;
   font-size: 24px;
+  font-weight: 600;
   color: white;
   text-align: center;
-  padding: 50px;
+  padding: 75px;
 }
 
-h3 {
-  font-family: "Open Sans semibold", sans-serif;
-  font-size: 20px;
-  color: #033048;
+a {
+ border-radius: 5px;
+ font-weight: 800;
+ padding: 12px 0;
+ width: 280px;
+ font-size: 28px;
+ text-align: center;
+ display: block;
+ margin: 0 auto;
 }
 
-img {
-  background-size: cover;
+ul {
+  list-style: disc;
+  font-family: "Open Sans light", sans-serif;
+  font-weight: 300;
+  font-size: 13px;
+  padding: 20px 50px;
 }
 
 footer {
   font-family: "Open Sans extra bold", sans-serif;
   font-size: 24px;
+  font-weight: 800;
   background-color: #121212;
   text-align: center;
+  padding: 5px 0 0 0px;
 }
 
 footer h1 {
   color: #f9e42e;
+  text-align: center;
+  margin-left: 5px;
 }
 
 h6 {
   font-family: "Open Sans semibold", sans-serif;
   font-size: 9px;
-  background-color: white;
-  text-align: center;
+  font-weight: 600;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 
-#button {
-  width: 150px;
-  height: 30px;
-  font-family: "Open Sans extra bold", sans-serif;
-  font-size: 14px;
-  font-weight: bolder;
-  text-align: center;
-  border: 1px solid #f9e42e;
-  border-radius: 5px;
-  color: #033048;
-  background-color: yellow;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 5px 0px 5px 0px;
-
+footer img {
+  margin: 20px 20px 20px 20px;
 }
 
 #benefits {
+  background-color: #f0efef;
+  border: 1 px solid green;
+}
+
+#benefits h3 {
   font-family: "Open Sans semibold", sans-serif;
   font-size: 20px;
-  padding-left: 50px;
-  padding: 50px 0px 50px 100px;
-  margin-top: -25px;
-  background-color: white;
+  font-weight: 600;
+  color: #033048;
+  margin-bottom: 15px;
 }
 
-p {
+#benefits p, ul {
   font-family: "Open Sans light", sans-serif;
   font-size: 13px;
-  padding-top: 8px;
-  color: #121212;
-}
-
-ul {
-  font-family: "Open Sans light", sans-serif;
-  font-size: 13px;
-  padding-left: 50px;
-  padding-right: 200px;
-  padding-top: 25px;
-  color: #121212;
-
+  font-weight: 300;
+  color: #606161;
 }
 
 #testimonial {
   font-family: "Open Sans light", sans-serif;
-  font-size: 18px;
   font-style: italic;
-  width: 400px;
-  height: 50px;
-  text-align: center;
+  font-size: 18px;
+  font-weight: 300px;
   color: white;
+  text-align: center;
+  padding-top: 30px;
 }
 
-#signUp {
-  background-color: #f9e24e;
-  height: 25px;
+#testimonial img {
+  position: center;
+  width: 100%;
+  margin-top: -30px;
 }
+
+#testimonial p {
+  margin-top: -200px;
+  margin-bottom: 75px;
+}
+
+#sign {
+  background-color: #033048;
+  border: 1px solid #033048;
+  color: white;
+  font-size: 12px;
+}
+
+#yellowBox {
+  background-color: #f9e42e;
+  padding: 20px 0 20px 0;
+  margin-top: -5px;
+}
+
+.button {
+  font-family: "Open Sans extra bold", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  color: #033048;
+  text-align: center;
+  border: 1px solid #f9e42e;
+  border-radius: 5px;
+  background-color: #f9e42e;
+  padding: 12px;
+  width: 175px;
+  display: block;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.box {
+  padding: 50px 0 50px 0;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.button p {
+  background-color: #033048;
+  margin: 0 auto;
+  padding: 5px 0px 5px 0px;
+  border: 1px solid #f9e42e;
+  border-radius: 5px;
+}
+
 
 /******************************************
 /* ADDITIONAL STYLES
