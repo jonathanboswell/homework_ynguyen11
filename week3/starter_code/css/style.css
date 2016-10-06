@@ -137,25 +137,11 @@ footer h1 {
   text-align: center;
   width: 100%;
   margin: auto;
-<<<<<<< Updated upstream
   padding: 20px 20px;
-=======
-  padding-top: 30px;
-}
-
-footer ul li {
-  display: inline-block;
-  list-style: none;
-  padding-bottom: 50px;
->>>>>>> Stashed changes
 }
 
 footer {
   background-color: #121212;
-<<<<<<< Updated upstream
-=======
-  text-align: center;
->>>>>>> Stashed changes
 }
 
 h6 {
@@ -163,15 +149,11 @@ h6 {
   font-size: 12px;
   font-weight: 300;
   color: white;
-<<<<<<< Updated upstream
   padding-top: 10px;
-=======
->>>>>>> Stashed changes
   padding-bottom: 30px;
   text-align: center;
 }
 
-<<<<<<< Updated upstream
 footer img {
   display: center;
   margin-left: 50%;
@@ -179,8 +161,6 @@ footer img {
   width: 1%;
 }
 
-=======
->>>>>>> Stashed changes
 #header {
   padding: 50px;
   background-color: #033048;
@@ -194,14 +174,6 @@ footer img {
   width: 100%;
 }
 
-<<<<<<< Updated upstream
-=======
-#post1 p:first-letter {
-  font-size: 2.5em;
-  float: left;
-}
-
->>>>>>> Stashed changes
 #post2 h2{
   margin-right: 25px;
   margin-top: 70px;
@@ -216,14 +188,6 @@ footer img {
   width: 100%;
 }
 
-<<<<<<< Updated upstream
-=======
-#post2 p:first-letter {
-  font-size: 2.5em;
-  float: left;  
-}
-
->>>>>>> Stashed changes
 #cats a {
   display: block;
   margin-top: -18px;
